@@ -243,6 +243,28 @@ a.card .more { display: inline-block; margin-top: 12px; font-weight: 700; color:
 
 .app-box p { color: #dcebdd; margin: 0 0 16px; }
 
+/* How to Play pages */
+
+.bid { padding-left: 14px; border-left: 3px solid var(--line); }
+
+.ranks { font-family: var(--round); }
+
+.fine { font-size: 0.9rem; color: var(--muted); }
+
+.prose ol { margin: 0 0 16px; padding-left: 1.4em; }
+
+table.score { width: 100%; border-collapse: collapse; margin: 0 0 16px; font-size: 1rem; }
+
+table.score th, table.score td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+
+table.score th { font-family: var(--round); }
+
+table.score td:last-child, table.score th:last-child { text-align: right; font-weight: 700; white-space: nowrap; }
+
+.pager { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-top: 32px; }
+
+.pager .next { margin-left: auto; }
+
 /* Footer */
 
 .site-foot { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--muted); font-size: 0.92rem; }
