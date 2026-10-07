@@ -215,6 +215,8 @@ a.card .more { display: inline-block; margin-top: 12px; font-weight: 700; color:
 
 .prose a { color: var(--gold-deep); font-weight: 600; }
 
+.prose a.btn { color: #0d2a12; font-weight: 800; text-decoration: none; }
+
 .intro { font-size: 1.15rem; color: var(--muted); }
 
 .thumb {
